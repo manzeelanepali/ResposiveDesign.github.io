@@ -524,6 +524,10 @@ body {
   display: none;
 }
 
+
+
+
+
 /* for tablet view  */
 @media screen  and (max-width: 768px ){
 
@@ -583,6 +587,75 @@ body {
   gap:20px
 }
 }
+
+
+@media screen and (max-width:480px) {
+  .mid-nav{
+
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    color: #FFFFFF;
+  }
+  .menu{
+    height: 80px;
+
+
+  }
+
+  .hero-text h1{
+    font-size: 15px;
+  }
+
+  .BoyImage{
+    display: none;
+  }
+  .hero-text{
+    margin:0  0px;
+
+  }
+  .photo{
+    height: 300px;
+    width: 300px;
+    padding-top: 100px;
+  }
+  .lists {
+   
+    font-size: 18px;
+    font-weight: 400;
+   }
+.first-img img{
+  height: 500px;
+  width: 400px;
+}
+.section-3 h3{
+  padding-left: 30px;
+}
+
+.section-5{
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 46px;
+}
+}
+.first-img img {
+  height: 500px;
+  width: 140px;
+}
+.footer-text{}
+.footer{
+  display: grid;
+}
+
+
+    /* font-weight: 400;
+    font-size: 18px;
+    line-height: 180%; */
+   
+
+  
+
 
 
 
