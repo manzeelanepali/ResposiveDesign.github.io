@@ -38,7 +38,7 @@
     .BoyImage{
       display: flex;
       justify-content: center;
-      margin-top: -437px;
+      margin-top: -298px;
       margin-right: -782px;
     }
 
@@ -46,7 +46,7 @@
 display: flex;
 align-items: center;
 justify-content: space-between;
-padding: 30px 104px 60px 104px;
+/* padding: 30px 104px 60px 104px; */
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -63,13 +63,15 @@ color: white;
 }
 
 
+
 .hero-text h1{
     width: 519px;
     
-    padding-left: 104px;
+    /* padding-left: 104px; */
     font-style: normal;
     font-weight: 900;
     font-size: 48px;
+    margin-top: 400px;
    
     color: #FFFFFF;
 
@@ -77,7 +79,7 @@ color: white;
 .hero-text p {
 width: 504px;
 
-padding-left: 104px;
+/* padding-left: 104px; */
 padding-top: 23px;
 font-style: normal;
 font-weight: 400;
@@ -91,7 +93,7 @@ color: #FFFFFF;
 display: flex;
 gap: 25px;
 padding-top: 44px;
-padding-left: 104px;
+/* padding-left: 104px; */
 
 }
 
@@ -113,7 +115,47 @@ border-radius: 50px;
 color: white;
 }
 
+
 .input-field{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 52px 0px 0px;
+    background-color: #DEE9FF;
+    border-radius: 50px;
+
+    max-width: 520px;
+}
+
+
+.input-field input{
+  width: 50%;
+    border: none;
+    line-height: 22px;
+    background-color: #DEE9FF;
+    color: #7A7A7A;
+}
+
+.input-field i{
+  padding-left: 14px;
+  width: 5%;
+  color: #7A7A7A; ;
+}
+
+
+.finding-drug{
+  border: none;
+    padding: 12px 29px;
+    background-color: #1BC768;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;}
+
+
+
+
+
+/* .input-field{
 padding-left: 104px;
 margin-top: 52px;
 }
@@ -131,9 +173,11 @@ top: 493px;
 border-radius: 50px;
 
 }
-.finding-drug{
+
+
+
 color: white;
-}
+} 
 
 
 /* .input-field button{
@@ -195,7 +239,8 @@ margin-top: 113px; }
 }
 
 .section-3 {
-margin: 104px;
+/* margin: 104px;
+ */
 display: flex;
 justify-content: space-around ;
 
@@ -256,7 +301,7 @@ background-color: #C4C4C4;
   background-color: green;
 }
 .section-4 {
-  margin: 104px;
+  /* margin: 104px; */
   display: flex;
   justify-content: space-around ;
   
@@ -302,7 +347,7 @@ background-color: #C4C4C4;
 
 
   .section-5 {
-    margin: 104px;
+    /* margin: 104px; */
     display: flex;
     justify-content: space-around ;
     
@@ -350,6 +395,7 @@ background-color: #C4C4C4;
   font-style: normal;
   font-weight: 900;
   font-size: 48px;
+  margin-top: 50px;
 
 color: white;
 
@@ -431,7 +477,7 @@ line-height: 180%;
 
 .footer{
   
-  padding: 90px;
+  padding: 90px; 
   color: white;
   background: #043CAA;
 }
@@ -497,7 +543,7 @@ border-radius: 0 50px 50px 0;
 .footer-links {
   display: flex;
   justify-content: space-around;
-  padding-left: 20px;
+  padding-left: 20px; 
   margin-top: 106px;
 }
 .footer-links p {
