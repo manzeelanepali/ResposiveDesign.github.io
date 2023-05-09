@@ -1,6 +1,7 @@
 
   *{
     margin: 0 ;
+    box-sizing: border-box;
      /* padding: 0px;  */
     /* max-width: 1440px; */
   }
@@ -37,8 +38,8 @@
     .BoyImage{
       display: flex;
       justify-content: center;
-      margin-top: -349px;
-      margin-right: -667px;
+      margin-top: -437px;
+      margin-right: -782px;
     }
 
 .nav-container{
@@ -64,18 +65,18 @@ color: white;
 
 .hero-text h1{
     width: 519px;
-    height: 132px;
+    
     padding-left: 104px;
     font-style: normal;
     font-weight: 900;
     font-size: 48px;
-    line-height: 66px;
+   
     color: #FFFFFF;
 
 }
 .hero-text p {
 width: 504px;
-height: 50px;
+
 padding-left: 104px;
 padding-top: 23px;
 font-style: normal;
@@ -121,28 +122,32 @@ border: 1px solid white;
 padding-left: 50px;
 height: 48px;
 width: 488px;
-border-radius: 50px;
+border-left: 50px;
+border-top-right-radius: 50px; 
 }
 .input-field img{
 left: 120px;
 top: 493px;
 border-radius: 50px;
-position: absolute;
+
 }
 .finding-drug{
 color: white;
 }
-.input-field button{
+
+
+/* .input-field button{
 left: 517px;
 top: 478px;
 border-radius: 0 50px 50px 0;
 border: 1px solid #1BC768;
-position: absolute;
+
 background-color: #1BC768;
 height: 49px;
 width:127px;
 
-}
+} */
+
 .section-2 {
  text-align: center;
  margin-top: 94px;
@@ -200,7 +205,7 @@ font-size: 24px;
 font-weight: 800;
 line-height: 33px;
 color: #043CAA;
-height: 66px;
+
 width: 242px;
 
 
@@ -345,22 +350,21 @@ background-color: #C4C4C4;
   font-style: normal;
   font-weight: 900;
   font-size: 48px;
-  line-height: 66px;
+
 color: white;
-width: 519px;
-height: 132px;
+
 
 }
 
 
 .hero-text p{
-width: 504px;
-height: 50px;
+/* width: 504px;
+height: 50px; */
 font-family: 'Avenir';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
-line-height: 25px;
+
 color: white;
 }
 
@@ -524,19 +528,45 @@ body {
 }
 
 
-/* tablet view  */
-
-/* @media screen  and (max-width: 768px ){
+/* tablet view   */
+ /* @media screen  and (max-width: 768px ){
   .main-container {
     background-image:url("./Rectangle\ 1.svg");
     background-size: cover;
     height: 679px;
-    
+    }
 
-    
-  }
+ 
+.mid-nav{
+  display: flex;
+  width: 500px;
+
   
-} */
+}
+
+.btn-light{
+  margin-left: 40px;
+
+}
+.hero-text h1{
+
+}
+
+
+
+    .BoyImage{
+      display: none;
+    }
+  
+}
+
+
+.section-2{
+  font-weight: 500px;
+
+}
+ */
+
 
 
 /* mobile view  */
