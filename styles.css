@@ -643,9 +643,14 @@ body {
   height: 500px;
   width: 140px;
 }
-.footer-text{}
-.footer{
-  display: grid;
+.footer-text{
+
+  .footer{
+    display: grid;
+
+
+}
+
 }
 
 
